@@ -12,17 +12,37 @@ function reset1(){
     document.getElementById("exer21").reset();
     document.getElementById("exer31").reset();
     document.getElementById("optiona1").style.background="";
+    document.getElementById("optionb1").style.background="";
     document.getElementById("optionc1").style.background="";
     document.getElementById("optiond1").style.background="";
     document.getElementById("optiona21").style.background="";
     document.getElementById("optionb21").style.background="";
+    document.getElementById("optionc21").style.background="";
     document.getElementById("optiona31").style.background="";
+    document.getElementById("optionb31").style.background="";
+    document.getElementById("optionc31").style.background="";
+    document.getElementById("optiond31").style.background="";
+    document.getElementById("optiona12").style.background="";
+    document.getElementById("optionb12").style.background="";
+    document.getElementById("optionc12").style.background="";
+    document.getElementById("optiond12").style.background="";
    document.getElementById("optione12").style.background="";
+   document.getElementById("optionf12").style.background="";
+   document.getElementById("optiong12").style.background="";
+   document.getElementById("optionh12").style.background="";
    document.getElementById("optioni12").style.background="";
+   document.getElementById("optionj12").style.background="";
+   document.getElementById("optionk12").style.background="";
    document.getElementById("optionl12").style.background="";
+
    document.getElementById("optiona13").style.background="";
+   document.getElementById("optionb13").style.background="";
    document.getElementById("optionc13").style.background="";
+   document.getElementById("optiond13").style.background="";
    document.getElementById("optione13").style.background="";
+   document.getElementById("optionf13").style.background="";
+   document.getElementById("optiong13").style.background="";
+   document.getElementById("optionh13").style.background="";
    document.getElementById("ex3").load();
 }
 
@@ -88,47 +108,47 @@ function sub1(){
     
         if (document.getElementById('opt12').checked){
             document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-            document.getElementById("optionb1").style.background="#93FF00";
+            document.getElementById("optionb1").style.background="#C7FF77";
         }
         if(document.getElementById('opt22').checked){
             document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-            document.getElementById("optionb21").style.background="#93FF00";
+            document.getElementById("optionb21").style.background="#C7FF77";
         }
       if (document.getElementById('opt32').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-            document.getElementById("optionb31").style.background="#93FF00";
+            document.getElementById("optionb31").style.background="#C7FF77";
       }
       if (document.getElementById('opt33').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-            document.getElementById("optionc31").style.background="#93FF00";
+            document.getElementById("optionc31").style.background="#C7FF77";
       }
        if((document.getElementById('opt34').checked) ) {
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optiond31").style.background="#93FF00";
+        document.getElementById("optiond31").style.background="#C7FF77";
         } 
         if((document.getElementById('opt11').checked)){
-            document.getElementById("optiona1").style.background="#FF0B0B";
+            document.getElementById("optiona1").style.background="#FFBD99";
             document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
         }
         if((document.getElementById('opt13').checked)){
-            document.getElementById("optionc1").style.background="#FF0B0B";
+            document.getElementById("optionc1").style.background="#FFBD99";
             document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
         }
         if((document.getElementById('opt14').checked)){
-            document.getElementById("optiond1").style.background="#FF0B0B";
+            document.getElementById("optiond1").style.background="#FFBD99";
             document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
         }
 
          if((document.getElementById('opt21').checked)){
-            document.getElementById("optiona21").style.background="#FF0B0B";
+            document.getElementById("optiona21").style.background="#FFBD99";
             document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
         }
          if((document.getElementById('opt23').checked)){
-            document.getElementById("optionb21").style.background="#FF0B0B";
+            document.getElementById("optionc21").style.background="#FFBD99";
             document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
         }
          if((document.getElementById('opt31').checked)){
-            document.getElementById("optiona31").style.background="#FF0B0B";
+            document.getElementById("optiona31").style.background="#FFBD99";
             document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
         }
       else if((document.getElementById('opt12').checked) && (document.getElementById('opt22').checked)&& (document.getElementById('opt32').checked)&&(document.getElementById('opt33').checked)&& (document.getElementById('opt34').checked))
@@ -144,52 +164,52 @@ function sub1(){
 function sub2(){
     if(document.getElementById('opt21a').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optiona12").style.background="#93FF00";
+        document.getElementById("optiona12").style.background="#C7FF77";
     }
     if(document.getElementById('opt21b').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optionb12").style.background="#93FF00";
+        document.getElementById("optionb12").style.background="#C7FF77";
     }
     if(document.getElementById('opt21c').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optionc12").style.background="#93FF00";
+        document.getElementById("optionc12").style.background="#C7FF77";
     }
     if(document.getElementById('opt21d').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optiond12").style.background="#93FF00";
+        document.getElementById("optiond12").style.background="#C7FF77";
     }
     if(document.getElementById('opt21f').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optionf12").style.background="#93FF00";
+        document.getElementById("optionf12").style.background="#C7FF77";
     }
     if(document.getElementById('opt21g').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optiong12").style.background="#93FF00";
+        document.getElementById("optiong12").style.background="#C7FF77";
     }
     if(document.getElementById('opt21h').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optionh12").style.background="#93FF00";
+        document.getElementById("optionh12").style.background="#C7FF77";
     }
     if(document.getElementById('opt21j').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optionj12").style.background="#93FF00";
+        document.getElementById("optionj12").style.background="#C7FF77";
     }
     if(document.getElementById('opt21k').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optionk12").style.background="#93FF00";
+        document.getElementById("optionk12").style.background="#C7FF77";
     }
 
     if(document.getElementById('opt21e').checked){
         document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
-        document.getElementById("optione12").style.background="#FF0B0B";
+        document.getElementById("optione12").style.background="#FFBD99";
     }
     if(document.getElementById('opt21i').checked){
         document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
-        document.getElementById("optioni12").style.background="#FF0B0B";
+        document.getElementById("optioni12").style.background="#FFBD99";
     }
     if(document.getElementById('opt21l').checked){
         document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
-        document.getElementById("optionl12").style.background="#FF0B0B";
+        document.getElementById("optionl12").style.background="#FFBD99";
     }
 
 
@@ -207,35 +227,35 @@ function sub3(){
 
     if (document.getElementById('opt31b').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optionb13").style.background="#93FF00";
+        document.getElementById("optionb13").style.background="#C7FF77";
     }
     if(document.getElementById('opt31d').checked){
         document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optiond13").style.background="#93FF00";
+        document.getElementById("optiond13").style.background="#C7FF77";
     }
   if (document.getElementById('opt31f').checked){
     document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optionf13").style.background="#93FF00";
+        document.getElementById("optionf13").style.background="#C7FF77";
   }
   if (document.getElementById('opt31g').checked){
     document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-        document.getElementById("optiong13").style.background="#93FF00";
+        document.getElementById("optiong13").style.background="#C7FF77";
   }
    if((document.getElementById('opt31h').checked) ) {
     document.getElementById("show_result").innerHTML="Correct. One or more correct option(s) has(have) not been selected. ";
-    document.getElementById("optionh13").style.background="#93FF00";
+    document.getElementById("optionh13").style.background="#C7FF77";
     } 
 
     if((document.getElementById('opt31a').checked)){
-        document.getElementById("optiona13").style.background="#FF0B0B";
+        document.getElementById("optiona13").style.background="#FFBD99";
         document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
     }
      if((document.getElementById('opt31c').checked)){
-        document.getElementById("optionc13").style.background="#FF0B0B";
+        document.getElementById("optionc13").style.background="#FFBD99";
         document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
     }
      if((document.getElementById('opt31e').checked)){
-        document.getElementById("optione13").style.background="#FF0B0B";
+        document.getElementById("optione13").style.background="#FFBD99";
         document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
     }
 

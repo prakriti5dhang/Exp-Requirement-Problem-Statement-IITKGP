@@ -170,7 +170,7 @@ function sub1(){
     function chnga1(){
         if((document.getElementById('opt11').checked == false) ){
             document.getElementById("optiona1").style.background="#FFFFFF";
-            document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+            document.getElementById("show_result").innerHTML="";
         }
     }
 
@@ -178,28 +178,28 @@ function sub1(){
     function chngc1(){
         if((document.getElementById('opt13').checked == false) ){
             document.getElementById("optionc1").style.background="#FFFFFF";
-            document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+            document.getElementById("show_result").innerHTML="";
         }
     }
 
     function chngd1(){
         if((document.getElementById('opt14').checked == false) ){
             document.getElementById("optiond1").style.background="#FFFFFF";
-            document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+            document.getElementById("show_result").innerHTML="";
         }
     }
 
     function chnga21(){
         if((document.getElementById('opt21').checked == false) ){
             document.getElementById("optiona21").style.background="#FFFFFF";
-            document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+            document.getElementById("show_result").innerHTML="";
         }
     }
 
     function chngc21(){
         if((document.getElementById('opt23').checked == false) ){
             document.getElementById("optionc21").style.background="#FFFFFF";
-            document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+            document.getElementById("show_result").innerHTML="";
         }
     }
 
@@ -207,7 +207,7 @@ function sub1(){
     function chnga31(){
     if((document.getElementById('opt31').checked == false) ){
         document.getElementById("optiona31").style.background="#FFFFFF";
-        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+        document.getElementById("show_result").innerHTML="";
     }
 }
 
@@ -277,21 +277,21 @@ function sub2(){
 
 function chnge12(){
     if(document.getElementById('opt21e').checked==false){
-        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("show_result").innerHTML="";
         document.getElementById("optione12").style.background="#FFFFFF";
     }
 }
 
 function chngi12(){
     if(document.getElementById('opt21i').checked==false){
-        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("show_result").innerHTML="";
         document.getElementById("optioni12").style.background="#FFFFFF";
     }
 }
 
 function chngl12(){
     if(document.getElementById('opt21l').checked==false){
-        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("show_result").innerHTML="";
         document.getElementById("optionl12").style.background="#FFFFFF";
     }
 }
@@ -345,21 +345,21 @@ function sub3(){
 
 function chnga13(){
     if(document.getElementById('opt31a').checked==false){
-        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("show_result").innerHTML="";
         document.getElementById("optiona13").style.background="#FFFFFF";
     }
 }
 
 function chngc13(){
     if(document.getElementById('opt31c').checked==false){
-        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("show_result").innerHTML="";
         document.getElementById("optionc13").style.background="#FFFFFF";
     }
 }
 
 function chnge13(){
     if(document.getElementById('opt31e').checked==false){
-        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("show_result").innerHTML="";
         document.getElementById("optione13").style.background="#FFFFFF";
     }
 }

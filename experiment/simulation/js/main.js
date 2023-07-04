@@ -151,14 +151,65 @@ function sub1(){
             document.getElementById("optiona31").style.background="#FFBD99";
             document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
         }
+        
+
       else if((document.getElementById('opt12').checked) && (document.getElementById('opt22').checked)&& (document.getElementById('opt32').checked)&&(document.getElementById('opt33').checked)&& (document.getElementById('opt34').checked))
         {
             showresult();
+        }
+        else if(((document.getElementById('opt12').checked) && (document.getElementById('opt22').checked)&& (document.getElementById('opt32').checked)&&(document.getElementById('opt33').checked)&& (document.getElementById('opt34').checked))|| (document.getElementById('opt31').checked) || (document.getElementById('opt23').checked) || (document.getElementById('opt21').checked)|| (document.getElementById('opt14').checked) || (document.getElementById('opt13').checked)|| (document.getElementById('opt11').checked))
+        {
+            alert("One or more correct option(s) has(have) not been selected.");
         }
         else {
             alert("One or more correct option(s) has(have) not been selected.");
         }
     }   
+
+
+    function chnga1(){
+        if((document.getElementById('opt11').checked == false) ){
+            document.getElementById("optiona1").style.background="#FFFFFF";
+            document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+        }
+    }
+
+
+    function chngc1(){
+        if((document.getElementById('opt13').checked == false) ){
+            document.getElementById("optionc1").style.background="#FFFFFF";
+            document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+        }
+    }
+
+    function chngd1(){
+        if((document.getElementById('opt14').checked == false) ){
+            document.getElementById("optiond1").style.background="#FFFFFF";
+            document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+        }
+    }
+
+    function chnga21(){
+        if((document.getElementById('opt21').checked == false) ){
+            document.getElementById("optiona21").style.background="#FFFFFF";
+            document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+        }
+    }
+
+    function chngc21(){
+        if((document.getElementById('opt23').checked == false) ){
+            document.getElementById("optionc21").style.background="#FFFFFF";
+            document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+        }
+    }
+
+
+    function chnga31(){
+    if((document.getElementById('opt31').checked == false) ){
+        document.getElementById("optiona31").style.background="#FFFFFF";
+        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect";
+    }
+}
 
 
 function sub2(){
@@ -223,6 +274,29 @@ function sub2(){
         }
 }
 
+
+function chnge12(){
+    if(document.getElementById('opt21e').checked==false){
+        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("optione12").style.background="#FFFFFF";
+    }
+}
+
+function chngi12(){
+    if(document.getElementById('opt21i').checked==false){
+        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("optioni12").style.background="#FFFFFF";
+    }
+}
+
+function chngl12(){
+    if(document.getElementById('opt21l').checked==false){
+        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("optionl12").style.background="#FFFFFF";
+    }
+}
+
+
 function sub3(){
 
     if (document.getElementById('opt31b').checked){
@@ -268,6 +342,28 @@ function sub3(){
             alert("One or more correct option(s) has(have) not been selected.");
         }
 }
+
+function chnga13(){
+    if(document.getElementById('opt31a').checked==false){
+        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("optiona13").style.background="#FFFFFF";
+    }
+}
+
+function chngc13(){
+    if(document.getElementById('opt31c').checked==false){
+        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("optionc13").style.background="#FFFFFF";
+    }
+}
+
+function chnge13(){
+    if(document.getElementById('opt31e').checked==false){
+        document.getElementById("show_result").innerHTML="One or more correct option(s) is(are) incorrect ";
+        document.getElementById("optione13").style.background="#FFFFFF";
+    }
+}
+
 
 function showresult(){
     document.getElementById("show_result").innerHTML="All are correct";
